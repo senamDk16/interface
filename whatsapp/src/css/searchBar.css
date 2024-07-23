@@ -1,0 +1,29 @@
+.divSearch{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    background: #202c33;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.divSearch span {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.divSearch span img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.divSearch input {
+    padding: 2px;
+    width: 100%;
+    border: none;
+    background: #202c33;
+    outline: none;
+}

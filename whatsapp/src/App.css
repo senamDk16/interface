@@ -1,0 +1,27 @@
+*, ::before, ::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  object-fit: cover;
+}
+
+.div-app{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.left-app {
+  background-color: #0c1317;
+  width: 40%;
+  height: 100%;
+}
+.right-app{
+  background-color: #222e35;
+  width: 60%;
+  height: 100%;
+}
