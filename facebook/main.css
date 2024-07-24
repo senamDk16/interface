@@ -1,0 +1,13 @@
+:root{
+    --red-color : #e41e3f;
+    --bg-color : #f0f2f5;
+    --blue-color : #0866ff;
+    --while-color : #fff;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background: var(--bg-color);
+}
